@@ -1,4 +1,4 @@
-package com.evo.weather.model;
+package com.evo.person.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -27,7 +27,7 @@ public class Weather {
     @NonNull
     private Double latitude;
 
-    public Weather( @NonNull Double pressure, @NonNull Double temperature, @NonNull String cloudiness, @NonNull Double longitude, @NonNull Double latitude) {
+    public Weather(@NonNull Double pressure, @NonNull Double temperature, @NonNull String cloudiness, @NonNull Double longitude, @NonNull Double latitude) {
         this.pressure = pressure;
         this.temperature = temperature;
         this.cloudiness = cloudiness;

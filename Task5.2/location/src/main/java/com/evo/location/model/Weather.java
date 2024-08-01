@@ -1,4 +1,4 @@
-package com.evo.weather.model;
+package com.evo.location.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

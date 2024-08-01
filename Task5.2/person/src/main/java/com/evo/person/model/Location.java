@@ -1,4 +1,4 @@
-package com.evo.weather.model;
+package com.evo.person.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,28 +9,25 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
 @Entity
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Data
-public class Weather {
+public class Location {
     @Id
     @GeneratedValue
     private int id;
     @NonNull
-    private Double pressure;
+    private String cityName;
     @NonNull
-    private Double temperature;
-    @NonNull
-    private String cloudiness;
+    private String countryCode;
     @NonNull
     private Double longitude;
     @NonNull
     private Double latitude;
 
-    public Weather( @NonNull Double pressure, @NonNull Double temperature, @NonNull String cloudiness, @NonNull Double longitude, @NonNull Double latitude) {
-        this.pressure = pressure;
-        this.temperature = temperature;
-        this.cloudiness = cloudiness;
+    public Location(@NonNull String cityName, @NonNull String countryCode, @NonNull Double longitude, @NonNull Double latitude) {
+        this.cityName = cityName;
+        this.countryCode = countryCode;
         this.longitude = longitude;
         this.latitude = latitude;
     }

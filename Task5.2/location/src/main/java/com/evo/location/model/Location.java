@@ -16,7 +16,6 @@ public class Location {
     @Id
     @GeneratedValue
     private int id;
-
     @NonNull
     private String cityName;
     @NonNull
@@ -25,13 +24,11 @@ public class Location {
     private Double longitude;
     @NonNull
     private Double latitude;
-    @NonNull
-    private Integer personId;
-    public Location(@NonNull String cityName, @NonNull String countryCode, @NonNull Double longitude, @NonNull Double latitude, Integer personId) {
+
+    public Location(@NonNull String cityName, @NonNull String countryCode, @NonNull Double longitude, @NonNull Double latitude) {
         this.cityName = cityName;
         this.countryCode = countryCode;
         this.longitude = longitude;
         this.latitude = latitude;
-        this.personId = personId;
     }
 }
