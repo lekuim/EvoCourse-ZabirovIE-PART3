@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a870561-1868-4f4b-835c-fefc41567d83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Task5.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/src/main/java/com/evo/location/LocationApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/src/main/java/com/evo/location/config/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/src/main/java/com/evo/location/controller/LocationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/src/main/java/com/evo/location/model/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/src/main/java/com/evo/location/model/Weather.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/src/main/java/com/evo/location/repository/LocationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.2/location/src/test/java/com/evo/location/LocationApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.3/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +63,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/projects/EvoCourse-ZabirovIE-PART3/Task5.4",
+    "last_opened_file_path": "D:/projects/EvoCourse-ZabirovIE-PART3/Task5.6",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
