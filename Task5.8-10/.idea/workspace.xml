@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a870561-1868-4f4b-835c-fefc41567d83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/discovery-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/example/discovery_server/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/test/java/com/example/discovery_server/DiscoveryServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/location/locationDb.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task5.6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person/src/main/java/com/evo/person/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/person/src/main/java/com/evo/person/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person/src/main/java/com/evo/person/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/person/src/main/java/com/evo/person/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personDb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/personDb.mv.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/projects/EvoCourse-ZabirovIE-PART3/Task5.8/discovery-server",
+    "last_opened_file_path": "D:/projects/EvoCourse-ZabirovIE-PART3/Task5.8-10",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.425023",

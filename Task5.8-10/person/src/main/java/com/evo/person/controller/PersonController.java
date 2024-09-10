@@ -39,8 +39,11 @@ public class PersonController {
     public ResponseEntity<Person> changeLocationByNam(@PathVariable Integer id, @RequestBody Person newPerson){
         if(repository.findById(id).isPresent()){
             Person person = repository.findById(id).get();
+            person.setFirstname(newPerson.getFirstname());
+            person.setLastname(newPerson.getLastname());
+            person.setSurname(newPerson.getSurname());
             person.setLocation(newPerson.getLocation());
-            person.setName(newPerson.getName());
+            person.setBirthday(newPerson.getBirthday());
             return new ResponseEntity<>(repository.save(person), HttpStatus.OK);
         }
         return new ResponseEntity<>(newPerson, HttpStatus.BAD_REQUEST);
